@@ -5,7 +5,8 @@
 
 body {
     font-family: monospace;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
+    
     
 }
 
@@ -120,17 +121,66 @@ nav ul li a:hover {
 }
     
 
-    .sidebar {
-        background: rgb(219, 121, 219);
-        width: 180px;
-        height: 800px;
-        float: left;
+.content {
+    width: 960px;
+    height: 960px;
+    margin: auto;
+    background-color: rgb(129, 202, 231);
+}
+
     
-    }
+.main {
+    width: 760px;
+    height: 940px;
+    background-color: slategrey;
+    margin: auto;
+    float: right;
+    box-sizing: border-box;
     
-    .content {
-        background: rgb(141, 189, 228);
-        width: 380px;
-        height: 200;
-    }
+} 
+
+.sidebar {
+    width: 180px;
+    height: 940px;
+    background-color: teal;
+    margin: auto;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+
+.footer {
+    width: 960px;
+    height: 120px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: rgb(19, 54, 54);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.footer p {
+    color: rgb(228, 243, 255);
+
+}
+
+.conten .main .image-box {
+    width: 300;
+    height: 180;
+    object-fit: cover;
+    
+
+}
+
+
+
+
+
+    
+
+
+
 
